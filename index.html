@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<title> Chae Seoyoon's portfolio </title>
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" href="css/default.css" />
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+  			var mySwiper = new Swiper ('.swiper-container', {
+			  pagination: {
+			    el: '.swiper-pagination',
+			    type: 'bullets',
+			    clickable: true
+			  },
+ 			 })
+		});
+	</script>
+	<style type="text/css">
+		.swiper-container {width:100%;}
+		.swiper-container .swiper-slide {height:760px; background:red; color:#fff; text-align: center;}
+		.swiper-container .swiper-slide img {width:100%; height:100%;}
+		.swiper-pagination-bullet {
+			background: #fff;
+			margin:0 10px;
+			opacity: 1;
+		}
+		.swiper-pagination-bullet-active {
+			background: #fe463e;
+
+		}
+		.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+			bottom: 30px;}
+
+		#about_section .content_wrap .profile img:hover { animation: fadeMotion 1s 0s ease-in; }
+		@keyframes fadeMotion {
+			0%{opacity: 0;}
+			100% {opacity: 1;}
+		}
+		#about_section .content_wrap .contBox .name {transition: color 0.5s, background 3s;}
+		#about_section .content_wrap .contBox .name:hover {color: #fa0064; }
+
+
+	</style>
+</head>
+<body>
+
+	<!-- s: header -->
+	<header id="header_container">
+		<div class="header_inner">
+			<h1 class="logo"><a href="#"><img src="images/img_logo01.png" alt="CHAE 로고" /></a></h1>
+			<!-- s: menu -->
+			<nav class="gnb_wrap">
+				<ul>
+					<li><a href="#about_section">about</a></li>
+					<li><a href="#skill_section">skill</a></li>
+					<li><a href="#portfolio_section">portfolio</a></li>
+				</ul>
+			</nav>
+			<!-- e: menu -->
+		</div>
+	</header>
+	<!-- e: header -->
+
+	<!-- s: intro -->
+	
+	
+	<section class="intro_section">
+
+		<div class="intro_inner">
+		
+		
+				<div class="container">
+					<!-- Slider main container -->
+					<div class="swiper-container">
+					    <!-- Additional required wrapper -->
+					    <div class="swiper-wrapper">
+					        <!-- Slides -->
+					        <div class="swiper-slide"><img src="images/bg_intro01.jpg"></div>
+					        <div class="swiper-slide"><img src="images/bg_intro02.jpg"></div>
+					        <div class="swiper-slide"><img src="images/bg_intro03.jpg"></div>
+					        <div class="swiper-slide"><img src="images/bg_intro04.jpg"></div>
+					    </div>
+					     <div class="swiper-pagination"></div>
+
+					</div>
+
+				</div>
+
+			
+		</div>
+	</section>
+	<!-- e: intro -->
+
+	<!-- s: body -->
+	<div id="body_container">
+
+		<!-- s: about -->
+		<section class="section" id="about_section">
+			<h2 class="title">about</h2>
+			<p class="subText">세상에 슬기로운 아이디어를 전하는 디자이너</p>
+			<!-- s: content -->
+			<div class="content_wrap">
+				<div class="profile">
+					<img src="images/img_profile01.jpg" class="프로필사진" />
+				</div>
+				<!-- s: contBox -->
+				<div class="contBox">
+					<h3 class="name">채 서 윤</h3>
+					<span class="job">Designer</span>
+					<ul class="sns">
+						<li><a href="#"><img src="images/ico_sns01.png" alt="페이스북" /></a></li>
+						<li><a href="#"><img src="images/ico_sns02.png" alt="트위터" /></a></li>
+						<li><a href="#"><img src="images/ico_sns03.png" alt="인스타그램" /></a></li>
+					</ul>
+					<!-- s: info -->
+					<div class="info">
+						<table>
+							<tbody>
+								<tr>
+									<th>Birthday.</th>
+									<td>2002.01.02</td>
+								</tr>
+								<tr>
+									<th>Phone.</th>
+									<td><a href="tel:010-4066-1272">010-4066-1272</a></td>
+								</tr>
+								<tr>
+									<th>E-mail.</th>
+									<td><a href="mailto:csy_0102@naver.com">csy_0102@naver.com</a></td>
+								</tr>
+								<tr>
+									<th>Education.</th>
+									<td>
+										2014.03 성일중학교 입학<br />
+										2017.02 성일중학교 졸업<br />
+										2017.03 미림여자정보과학고등학교 입학<br />
+										2019.02 미림여자정보과학고등학교 졸업예정
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<!-- e: info -->
+				</div>
+				<!-- e: contBox -->
+			</div>
+			<!-- e: content -->
+		</section>
+		<!-- e: about -->
+
+		<!-- s: skill -->
+		<section class="section" id="skill_section">
+			<h2 class="title">skill</h2>
+			<p class="subText">ACA Visual Design Specialist 자격증 보유</p>
+			<!-- s: content -->
+			<div class="content_wrap">
+				<ul>
+					<li>
+						<div class="ico ps"><img src="images/img_skill01.png" alt="포토샵" /></div>
+						<strong class="name">Photoshop</strong>
+					</li>
+					<li>
+						<div class="ico ai"><img src="images/img_skill02.png" alt="일러스트레이터" /></div>
+						<strong class="name">Illustrator</strong>
+					</li>
+					<li>
+						<div class="ico id"><img src="images/img_skill03.png" alt="인디자인" /></div>
+						<strong class="name">Indesign</strong>
+					</li>
+					<li>
+						<div class="ico ae"><img src="images/img_skill04.png" alt="애프터이펙트" /></div>
+						<strong class="name">After Effects</strong>
+					</li>
+					<li>
+						<div class="ico max"><img src="images/img_skill05.png" alt="3DS MAX" /></div>
+						<strong class="name">3DS MAX</strong>
+					</li>
+				</ul>
+			</div>
+			<!-- e: content -->
+		</section>
+		<!-- e: skill -->
+
+<!-- s: portfolio -->
+		<section class="section" id="portfolio_section">
+			<h2 class="title">portfolio</h2>
+			<p class="subText">Lorem ipsum dolor sit amet consectetur</p>
+			<!-- s: content-->
+			
+	<div class="validation_wrap">
+		
+			<input type="radio" name="chkWork" id="workAll" checked="checked" /><label for="workAll">All</label>
+			&nbsp;
+			<input type="radio" name="chkWork" id="work01" /><label for="work01">UI/UX</label>
+			&nbsp;
+			<input type="radio" name="chkWork" id="work02" /><label for="work02">WEB</label>
+			&nbsp;
+			<input type="radio" name="chkWork" id="work03" /><label for="work03">3D</label>
+			&nbsp;
+			<input type="radio" name="chkWork" id="work04" /><label for="work04">Graphic</label>
+		
+		<div class="portfolio">
+			<div class="box work01">
+				<div class="thumb">
+							<img src="images/img_work01.jpg" />
+							<strong class="type">App design</strong>
+						</div>
+						<div class="contBox">
+							<h3 class="tit">Isom project</h3>
+							<span class="type">App design</span>
+							<p class="desc">나에 대해 알아가는 5분의 시간,In Search Of Me<br>스스로에 대해 얼마나 알고 있나요? 나를 제대로 아는 건 오직 나 뿐입니다. ISOM은 하루에 질문 한개씩 대답하는 앱입니다. 매일 5분씩 스스로 생각하는 보람과 성취감으로 작지만 큰 행복을 줍니다.
+							</p>
+						</div>
+			</div>
+			<div class="box work01">
+						<div class="thumb">
+							<img src="images/img_work02.jpg" />
+							<strong class="type">BI design</strong>
+						</div>
+						<div class="contBox">
+							<h3 class="tit">영화진흥위원회 리디자인</h3>
+							<span class="type">BI design</span>
+							<p class="desc">어릴 적 한번쯤은 접해본 동화를 꼽으라고 한다면 당연히 백설공주를 빼놓을 수 없다. 동화 속의 주인공들의 특별한 사연들과 숨겨진 이야기들을 통하여 일상에 필요한 정보들을 제공받아보자. 알레르기와 갱년기, 그리고 어린이 교육이라는 사회가 궁금해하는 정보! </p>
+						</div>
+			</div>
+			<div class="box work04">
+						<div class="thumb">
+							<img src="images/img_work03.jpg" />
+							<strong class="type">Poster design</strong>
+						</div>
+						<div class="contBox">
+							<h3 class="tit">갈라진 돌 틈에 핀 꽃,<br>갈라진 우리에게 필 꽃</h3>
+							<span class="type">Poster design</span>
+							<p class="desc">어릴 적 한번쯤은 접해본 동화를 꼽으라고 한다면 당연히 백설공주를 빼놓을 수 없다.   </p>
+						</div>
+			</div>
+			<div class="box work04">
+				<div class="thumb">
+							<img src="images/img_work04.jpg" />
+							<strong class="type">package design</strong>
+						</div>
+						<div class="contBox">
+							<h3 class="tit">백설공주와 알레르기</h3>
+							<span class="type">package design</span>
+							<p class="desc">어릴 적 한번쯤은 접해본 동화를 꼽으라고 한다면 당연히 백설공주를 빼놓을 수 없다. 동화 속의 주인공들의 특별한 사연들과 숨겨진 이야기들을 통하여 일상에 필요한 정보들을 제공받아보자. 알레르기와 갱년기, 그리고 어린이 교육이라는 사회가 궁금해하는 정보! </p>
+						</div>
+			</div>
+			<div class="box work04">
+						<div class="thumb">
+							<img src="images/img_work05.jpg" />
+							<strong class="type">package design</strong>
+						</div>
+						<div class="contBox">
+							<h3 class="tit">백설공주와 알레르기</h3>
+							<span class="type">package design</span>
+							<p class="desc">어릴 적 한번쯤은 접해본 동화를 꼽으라고 한다면 당연히 백설공주를 빼놓을 수 없다. 동화 속의 주인공들의 특별한 사연들과 숨겨진 이야기들을 통하여 일상에 필요한 정보들을 제공받아보자. 알레르기와 갱년기, 그리고 어린이 교육이라는 사회가 궁금해하는 정보! </p>
+						</div>
+			</div>
+			<div class="box work03">
+						<div class="thumb">
+							<img src="images/img_work06.png" />
+							<strong class="type">package design</strong>
+						</div>
+						<div class="contBox">
+							<h3 class="tit">백설공주와 알레르기</h3>
+							<span class="type">package design</span>
+							<p class="desc">어릴 적 한번쯤은 접해본 동화를 꼽으라고 한다면 당연히 백설공주를 빼놓을 수 없다. 동화 속의 주인공들의 특별한 사연들과 숨겨진 이야기들을 통하여 일상에 필요한 정보들을 제공받아보자. 알레르기와 갱년기, 그리고 어린이 교육이라는 사회가 궁금해하는 정보! </p>
+						</div>
+			</div>
+			<div class="box work04">
+				<div class="thumb">
+							<img src="images/img_work07.jpg" />
+							<strong class="type">package design</strong>
+						</div>
+						<div class="contBox">
+							<h3 class="tit">백설공주와 알레르기</h3>
+							<span class="type">package design</span>
+							<p class="desc">어릴 적 한번쯤은 접해본 동화를 꼽으라고 한다면 당연히 백설공주를 빼놓을 수 없다. 동화 속의 주인공들의 특별한 사연들과 숨겨진 이야기들을 통하여 일상에 필요한 정보들을 제공받아보자. 알레르기와 갱년기, 그리고 어린이 교육이라는 사회가 궁금해하는 정보! </p>
+						</div>
+			</div>
+			<div class="box work04">
+						<div class="thumb">
+							<img src="images/img_work08.jpg" />
+							<strong class="type">package design</strong>
+						</div>
+						<div class="contBox">
+							<h3 class="tit">백설공주와 알레르기</h3>
+							<span class="type">package design</span>
+							<p class="desc">어릴 적 한번쯤은 접해본 동화를 꼽으라고 한다면 당연히 백설공주를 빼놓을 수 없다. 동화 속의 주인공들의 특별한 사연들과 숨겨진 이야기들을 통하여 일상에 필요한 정보들을 제공받아보자. 알레르기와 갱년기, 그리고 어린이 교육이라는 사회가 궁금해하는 정보! </p>
+						</div>
+			</div>
+			<div class="box work04">
+						<div class="thumb">
+							<img src="images/img_work09.jpg" />
+							<strong class="type">package design</strong>
+						</div>
+						<div class="contBox">
+							<h3 class="tit">백설공주와 알레르기</h3>
+							<span class="type">package design</span>
+							<p class="desc">어릴 적 한번쯤은 접해본 동화를 꼽으라고 한다면 당연히 백설공주를 빼놓을 수 없다. 동화 속의 주인공들의 특별한 사연들과 숨겨진 이야기들을 통하여 일상에 필요한 정보들을 제공받아보자. 알레르기와 갱년기, 그리고 어린이 교육이라는 사회가 궁금해하는 정보! </p>
+						</div>
+			</div>
+			
+			<div class="box work02">
+				<div class="thumb">
+							<img src="images/img_work10.jpg" />
+							<strong class="type">package design</strong>
+						</div>
+						<div class="contBox">
+							<h3 class="tit">백설공주와 알레르기</h3>
+							<span class="type">package design</span>
+							<p class="desc">어릴 적 한번쯤은 접해본 동화를 꼽으라고 한다면 당연히 백설공주를 빼놓을 수 없다. 동화 속의 주인공들의 특별한 사연들과 숨겨진 이야기들을 통하여 일상에 필요한 정보들을 제공받아보자. 알레르기와 갱년기, 그리고 어린이 교육이라는 사회가 궁금해하는 정보! </p>
+						</div>
+			</div>
+			<div class="box work02">
+						<div class="thumb">
+							<img src="images/img_work11.jpg" />
+							<strong class="type">package design</strong>
+						</div>
+						<div class="contBox">
+							<h3 class="tit">백설공주와 알레르기</h3>
+							<span class="type">package design</span>
+							<p class="desc">어릴 적 한번쯤은 접해본 동화를 꼽으라고 한다면 당연히 백설공주를 빼놓을 수 없다. 동화 속의 주인공들의 특별한 사연들과 숨겨진 이야기들을 통하여 일상에 필요한 정보들을 제공받아보자. 알레르기와 갱년기, 그리고 어린이 교육이라는 사회가 궁금해하는 정보! </p>
+						</div>
+			</div>
+			<div class="box work03">
+						<div class="thumb">
+							<img src="images/img_work12.png" />
+							<strong class="type">package design</strong>
+						</div>
+						<div class="contBox">
+							<h3 class="tit">백설공주와 알레르기</h3>
+							<span class="type">package design</span>
+							<p class="desc">어릴 적 한번쯤은 접해본 동화를 꼽으라고 한다면 당연히 백설공주를 빼놓을 수 없다. 동화 속의 주인공들의 특별한 사연들과 숨겨진 이야기들을 통하여 일상에 필요한 정보들을 제공받아보자. 알레르기와 갱년기, 그리고 어린이 교육이라는 사회가 궁금해하는 정보! </p>
+						</div>
+			</div>
+		
+
+	</div>
+
+	<style type="text/css">
+
+		.validation_wrap input {
+			margin-left: 30px;
+		}
+		.validation_wrap input:first-child {
+			margin-left: 380px;
+		}
+		.validation_wrap input:checked + label {
+			font-size: 18px;
+			font-weight: bold;
+		}
+		.validation_wrap .portfolio .box {
+			display:none;
+		}
+		.validation_wrap input#workAll:checked ~ .portfolio .box {display:inline-block;}
+		.validation_wrap input#work01:checked ~ .portfolio .box.work01 {display:inline-block;}
+		.validation_wrap input#work02:checked ~ .portfolio .box.work02 {display:inline-block;}
+		.validation_wrap input#work03:checked ~ .portfolio .box.work03 {display:inline-block;}
+		.validation_wrap input#work04:checked ~ .portfolio .box.work04 {display:inline-block;}
+	</style>
+			<!-- e: content-->
+		</section>
+		<!-- e: portfolio -->
+
+	</div>
+	<!-- e: body -->
+
+	<!-- s: footer -->
+	<footer id="footer_container">
+		<p class="copy">Copyright ⓒ 2018. Seo-Yoon Chae. All right reserved.</p>
+	</footer>
+	<!-- e: footer -->
+
+</body>	
+</html>
