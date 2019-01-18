@@ -210,7 +210,7 @@
 		border-radius:50%;
 	}
 	#about_section .content_wrap .contBox .sns a:hover {
-		background-color:#ff7a68;
+		background-color:#fe463e;
 	}
 	#about_section .content_wrap .contBox .sns img {
 		width:50px; height:50px;
@@ -234,7 +234,7 @@
 		text-decoration:none;
 	}
 	#about_section .content_wrap .contBox .info tbody td a:hover {
-		color:#ff7a68;
+		color:#fe463e;
 
 	}
 
